@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.info-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(75, 205, 214) url("https://upload.wikimedia.org/wikipedia/sco/thumb/9/9f/Twitter_bird_logo_2012.svg/1200px-Twitter_bird_logo_2012.svg.png");
+    float: left;
+    width: 50%;
+    height: 620px;
+    color: #ffffff;
+    line-height: 2;
+}
+
+.info-page, p {
+    font-size: 20px;
+    line-height: 3;
+}
+
+.details-page {
+    float: right;
+    width: 50%;
+    height: 620px;
+}
+
+.personal-info {
+    margin: 20px 50px 0px 230px;
+}
+
+.login1 {
+    border-color: #42a7f5;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.remember {
+    text-decoration: none;
+    margin-left: 385px;
+}
+
+.bird {
+    font-size: 30px;
+    color: #42a7f5;
+    margin-top: 150px;
+    margin-left: 230px;
+}
+
+.decision {
+    margin-left: 230px;
+    margin-right: 150px;
+}
+
+.decision, h1 {
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+
+.decision, p {
+    font-size: 16px;
+}
+
+.sign-up {
+    background-color: #42a7f5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 7px 115px;
+    margin-top: 10px;
+}
+
+.log-in {
+    background-color: white;
+    color: #42a7f5;
+    border-color: #42a7f5;
+    border-radius: 10px;
+    border-width: thin;
+    cursor: pointer;
+    padding: 5px 118px;
+    margin-top: 10px;
+}
